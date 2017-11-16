@@ -22,6 +22,7 @@ class CitySearchViewController:  UIViewController, GMSAutocompleteFetcherDelegat
             tableView.keyboardDismissMode = .onDrag
             tableView.estimatedRowHeight = 44
             tableView.delegate = self
+            tableView.tableFooterView = UIView()
         }
     }
     

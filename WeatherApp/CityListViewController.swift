@@ -120,10 +120,12 @@ extension CityListViewController {
             if weatherDetail != nil {
                 CoreDataHelper.shared.peristWeatherDetailsReponse(weatherDetail: weatherDetail!, completion: { (city, err) in
                     if city != nil {
+                        
                         self.cityList.append(city!)
                         self.tableView.beginUpdates()
                         self.tableView.insertRows(at: [IndexPath(row: self.cityList.count - 1, section: 0)] , with: .fade)
                         self.tableView.endUpdates()
+                        
                     } else {
                         self.handleError(string: err)
                     }
