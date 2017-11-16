@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.5.1)
+  - GoogleMaps/Base (2.4.0)
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
+  - MBProgressHUD (1.0.0)
+  - ObjectMapper (2.2.9)
+  - ReachabilitySwift (4.1.0)
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxSwift (3.0.1)
+  - TTGSnackbar (1.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - GooglePlaces
+  - MBProgressHUD (~> 1.0)
+  - ObjectMapper (= 2.2.9)
+  - ReachabilitySwift
+  - RxCocoa (~> 3.0.0.beta.1)
+  - RxSwift (~> 3.0.0.beta.1)
+  - TTGSnackbar (~> 1.5)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  TTGSnackbar: 058485c43a1cdbdfc988d41cb23c23f008df958d
+
+PODFILE CHECKSUM: b75288bad5b9fd464fbed2eb1d2034fca6db74e3
+
+COCOAPODS: 1.2.1
