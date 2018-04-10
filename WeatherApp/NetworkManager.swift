@@ -2,8 +2,8 @@
 //  NetworkManager.swift
 //  WeatherApp
 //
-//  Created by Four Arms on 14/11/17.
-//  Copyright © 2017 Tilicho Labs. All rights reserved.
+//  Created by Ravi Kumar  on 14/11/17.
+//   
 //
 
 import Foundation
